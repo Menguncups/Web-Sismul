@@ -1,0 +1,113 @@
+*,
+html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(20, 21, 22, 255);
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  padding: 1em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgba(20, 21, 22, 255);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar #nnavbar {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar #nnavbar:hover {
+  background-color: white;
+  color: rgb(201, 155, 80);
+}
+
+.navbar li {
+  float: left;
+  font-family: Roboto;
+}
+
+.icon a {
+  margin: 0 15px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon a i {
+  color: white;
+}
+
+.icon a:hover i.fa-instagram {
+  color: rgb(201, 155, 80);
+}
+
+.icon a:hover i.fa-whatsapp {
+  color: rgb(201, 155, 80);
+}
+
+.icon a:hover i.fa-github {
+  color: rgb(201, 155, 80);
+}
+
+.icon a:hover i.fa-envelope {
+  color: rgb(201, 155, 80);
+}
+
+#footer {
+  margin-top: auto;
+  color: white;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#babout {
+  font-family: Roboto;
+  color: white;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+#hbody {
+  font-family: Roboto;
+  color: white;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  
+}
